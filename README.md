@@ -1,6 +1,6 @@
 transmissionrpc-miniupnpc-python
 ================================
-My transmission-daemon would not properly map peer port with UPnP IGD, this is my solution.
+My transmission-daemon wouldn't properly map peer port with UPnP IGD, this is my solution.
 
 **This code (and readme) is for personal use, and not intended for others.**
 
