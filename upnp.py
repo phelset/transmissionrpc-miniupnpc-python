@@ -60,12 +60,3 @@ class UPnP:
 
 	def addPortMappingToLanIp(self, port, protocol):
 		return self.addPortMapping(port, protocol, self.upnp.lanaddr)
-
-
-x = UPnP()
-#print x.isPortMapped(14329, 'TCP')
-#print x.isPortMappedToIp(14329, 'TCP', '10.28.21.25')
-#print x.isPortMappedToLanIp(14329, 'TCP')
-#print x.addPortMappingToLanIp(14320, 'TCP')
-#print x.deletePortMapping(14320, 'TCP')
-print x.getFreePort(14329, 'TCP')
