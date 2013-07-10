@@ -1,0 +1,3 @@
+# -*- coding: utf-8 -*-
+TRANSMISSION_IP = '127.0.0.1'
+TRANSMISSION_PORT = 9091

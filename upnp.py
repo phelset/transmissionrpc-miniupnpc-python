@@ -1,6 +1,6 @@
-#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
-import sys, miniupnpc
+import miniupnpc
 
 class UPnP:
 	def __init__(self):
@@ -16,7 +16,7 @@ class UPnP:
 			self.upnp.selectigd()
 		except Exception, e:
 			print 'Exception: %s' % e
-			sys.exit(1)
+			exit(1)
 
 		# display information about the IGD and the internet connection
 		print 'Local IP address: %s' % self.upnp.lanaddr
