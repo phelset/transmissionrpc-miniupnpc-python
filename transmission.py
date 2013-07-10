@@ -13,3 +13,5 @@ class Transmission:
 
 	def setPeerPort(self, port):
 		self.session.peer_port = port
+
+	peer_port = property(getPeerPort, setPeerPort, None, 'Peer port. This is a mutator')
